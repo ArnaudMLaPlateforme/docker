@@ -19,3 +19,6 @@ Ce projet est une première introduction à Docker dans le cadre de la formation
 
 ### 2. Création et connexion au compte Docker
 - ![Capture d'écran de la version Docker](images/launch-docker.png)
+
+### 3. Vérifier la version d'installation de docker avec la commande
+docker --version
