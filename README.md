@@ -23,3 +23,8 @@ Ce projet est une première introduction à Docker dans le cadre de la formation
 ### 3. Vérifier la version d'installation de docker avec la commande
 docker --version
 - ![Capture d'écran de la version Docker](images/docker-version.png)
+
+### 4. Tester les commandes de base dans le terminal :
+docker info
+- ![Capture d'écran de la version Docker](images/docker-info.png)
+- ![Capture d'écran de la version Docker](images/docker-info-2.png)
