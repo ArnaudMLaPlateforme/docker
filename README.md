@@ -70,13 +70,21 @@ La commande docker ps montre que le container n'existe plus
 
 ### 10. Exemples de ligne de commande pour supprimer : 
 👉 Un container spécifique : docker rm <container_id>
+
 👉 Plusieurs conteneurs : docker rm <container_id1> <container_id2> <container_id3>
+
 👉 Tous les conteneurs arrêtés : docker container prune
+
 👉 Forcer la suppression d'un conteneur actif : docker rm -f <container_id>
+
 👉 Une image spécifique : docker rmi <image_id>
+
 👉 Plusieurs images : docker rmi <image_id_1> <image_id_2> <image_id_3>
+
 👉 Toutes les images inutilisées : docker image prune -a
+
 👉 Toutes les images non utilisées : docker image prune -a
+
 👉 Forcer la suppression d'une image : docker rmi -f <image_id>
 
 
