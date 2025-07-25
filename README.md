@@ -44,3 +44,6 @@ docker --version
 ### 5. Récupérer l’image Docker
 👉 docker pull docker/welcome-to-docker
 - ![Capture d'écran de la version Docker](images/docker-pull.png)
+
+👉 docker images docker/welcome-to-docker
+- ![Capture d'écran de la version Docker](images/docker-images-welcome-to-docker.png)
