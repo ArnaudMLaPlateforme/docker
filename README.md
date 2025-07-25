@@ -5,7 +5,7 @@
 Ce projet est une première introduction à Docker dans le cadre de la formation. Il a pour but de :
 
 - Comprendre les bases de Docker
-- Apprendre à installer, exécuter et interagir avec des **images** et **conteneurs Docker**
+- Apprendre à installer, exécuter et interagir avec des **images** et **containers Docker**
 - Découvrir l’image officielle [`welcome-to-docker`](https://github.com/docker/welcome-to-docker)
 
 ---
@@ -29,16 +29,16 @@ docker --version
 - ![Capture d'écran de la version Docker](images/docker-info.png)
 - ![Capture d'écran de la version Docker](images/docker-info-2.png)
 
-👉 docker ps : affichage des conteneurs en cours avec docker ps
+👉 docker ps : affichage des containers en cours avec docker ps
 - ![Capture d'écran de la version Docker](images/docker-ps.png)
 
 👉 docker images : affichage des images Docker disponibles localement avec docker images
 - ![Capture d'écran de la version Docker](images/docker-images.png)
 
-👉 docker run : démarrer un conteneur Docker à partir d’une image. Message d’erreur indiquant que la commande docker run nécessite au minimum un argument, qui est le nom de l’image Docker que je veux lancer.
+👉 docker run : démarrer un container Docker à partir d’une image. Message d’erreur indiquant que la commande docker run nécessite au minimum un argument, qui est le nom de l’image Docker que je veux lancer.
 - ![Capture d'écran de la version Docker](images/docker-run.png)
 
-👉 docker stop : arrêter un conteneur en cours d'exécution. Message d’erreur indiquant que la commande docker stop nécessite au minimum un argument, qui est le nom de l’image Docker en cours d'exécution.
+👉 docker stop : arrêter un container en cours d'exécution. Message d’erreur indiquant que la commande docker stop nécessite au minimum un argument, qui est le nom de l’image Docker en cours d'exécution.
 - ![Capture d'écran de la version Docker](images/docker-stop.png)
 
 ### 5. Récupération de l’image Docker
@@ -49,10 +49,18 @@ docker --version
 - ![Capture d'écran de la version Docker](images/docker-images-welcome-to-docker.png)
 
 ### 6. Construction du container Docker
-👉 docker run -it --rm -p 8080:80 docker/welcome-to-docker :  Lancement du conteneur avec un port valide
+👉 docker run -it --rm -p 8080:80 docker/welcome-to-docker :  Lancement du container avec un port valide
 - ![Capture d'écran de la version Docker](images/docker-run-welcome-to-docker.png)
 
-👉 Lancement de l'application dans le navigateur avec http://localhost:8080/
+👉 http://localhost:8080/ : Lancement de l'application dans le navigateur
 - ![Capture d'écran de la version Docker](images/docker-navigator.png)
 
+### 7. Arrêt du container en cours
+👉 Ctrl + C : 
+- ![Capture d'écran de la version Docker](images/docker-stop-welcome-to-docker.png)
+
+### 8. Suppression de container
+👉 Avec l'utilisation de --rm, le container est automatiquement supprimé juste après l'avoir arrêté.
+La commande docker ps montre que le container n'existe plus
+- ![Capture d'écran de la version Docker](images/docker-delete.png)
 
