@@ -9,3 +9,11 @@ Ce projet est une première introduction à Docker dans le cadre de la formation
 - Découvrir l’image officielle [`welcome-to-docker`](https://github.com/docker/welcome-to-docker)
 
 ---
+
+## ✅ Étapes réalisées
+
+### 1. Installation de Docker
+![Capture d'écran de la version Docker](images/install-docker-01.png)
+![Capture d'écran de la version Docker](images/install-docker-02.png)
+
+- Docker Desktop a été installé avec succès sur mon ordinateur.
