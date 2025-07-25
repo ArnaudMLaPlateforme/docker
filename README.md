@@ -52,3 +52,7 @@ docker --version
 👉 docker run -it --rm -p 8080:80 docker/welcome-to-docker :  Lancement du conteneur avec un port valide
 - ![Capture d'écran de la version Docker](images/docker-run-welcome-to-docker.png)
 
+👉 Lancement de l'application dans le navigateur avec http://localhost:8080/
+- ![Capture d'écran de la version Docker](images/docker-navigator.png)
+
+
