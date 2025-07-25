@@ -28,3 +28,6 @@ docker --version
 docker info
 - ![Capture d'écran de la version Docker](images/docker-info.png)
 - ![Capture d'écran de la version Docker](images/docker-info-2.png)
+
+docker ps
+- ![Capture d'écran de la version Docker](images/docker-ps.png)
