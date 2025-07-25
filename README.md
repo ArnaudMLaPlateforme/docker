@@ -64,3 +64,8 @@ docker --version
 La commande docker ps montre que le container n'existe plus
 - ![Capture d'écran de la version Docker](images/docker-delete.png)
 
+### 9. Suppression de l'image du container
+👉 docker rmi docker/welcome-to-docker
+- ![Capture d'écran de la version Docker](images/docker-rmi.png)
+
+
