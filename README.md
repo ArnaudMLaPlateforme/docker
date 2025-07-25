@@ -20,11 +20,11 @@ Ce projet est une première introduction à Docker dans le cadre de la formation
 ### 2. Création et connexion au compte Docker
 - ![Capture d'écran de la version Docker](images/launch-docker.png)
 
-### 3. Vérifier la version d'installation de docker avec la commande
+### 3. Vérification de la version d'installation de docker avec la commande
 docker --version
 - ![Capture d'écran de la version Docker](images/docker-version.png)
 
-### 4. Tester les commandes de base dans le terminal :
+### 4. Test des commandes de base dans le terminal :
 👉 docker info : affichage des informations système Docker avec docker info
 - ![Capture d'écran de la version Docker](images/docker-info.png)
 - ![Capture d'écran de la version Docker](images/docker-info-2.png)
@@ -41,9 +41,14 @@ docker --version
 👉 docker stop : arrêter un conteneur en cours d'exécution. Message d’erreur indiquant que la commande docker stop nécessite au minimum un argument, qui est le nom de l’image Docker en cours d'exécution.
 - ![Capture d'écran de la version Docker](images/docker-stop.png)
 
-### 5. Récupérer l’image Docker
+### 5. Récupération de l’image Docker
 👉 docker pull docker/welcome-to-docker
 - ![Capture d'écran de la version Docker](images/docker-pull.png)
 
-👉 docker images docker/welcome-to-docker
+👉 docker images docker/welcome-to-docker : Vérification que l'image welcome-to-docker est bien présente
 - ![Capture d'écran de la version Docker](images/docker-images-welcome-to-docker.png)
+
+### 6. Construction du container Docker
+👉 docker run -it --rm -p 8080:80 docker/welcome-to-docker :  Lancement du conteneur avec un port valide
+- ![Capture d'écran de la version Docker](images/docker-run-welcome-to-docker.png)
+
