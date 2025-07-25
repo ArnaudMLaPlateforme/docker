@@ -14,6 +14,6 @@ Ce projet est une première introduction à Docker dans le cadre de la formation
 
 ### 1. Installation de Docker
 ![Capture d'écran de la version Docker](images/install-docker-01.png)
-![Capture d'écran de la version Docker](images/install-docker-02.png)
 
 - Docker Desktop a été installé avec succès sur mon ordinateur.
+- ![Capture d'écran de la version Docker](images/launch-docker.png)
