@@ -40,3 +40,7 @@ docker --version
 
 👉 docker stop : arrêter un conteneur en cours d'exécution. Message d’erreur indiquant que la commande docker stop nécessite au minimum un argument, qui est le nom de l’image Docker en cours d'exécution.
 - ![Capture d'écran de la version Docker](images/docker-stop.png)
+
+### 5. Récupérer l’image Docker
+👉 docker pull docker/welcome-to-docker
+- ![Capture d'écran de la version Docker](images/docker-pull.png)
