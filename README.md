@@ -37,3 +37,6 @@ docker --version
 
 👉 docker run : démarrer un conteneur Docker à partir d’une image. Message d’erreur indiquant que la commande docker run nécessite au minimum un argument, qui est le nom de l’image Docker que je veux lancer.
 - ![Capture d'écran de la version Docker](images/docker-run.png)
+
+👉 docker stop : arrêter un conteneur en cours d'exécution. Message d’erreur indiquant que la commande docker stop nécessite au minimum un argument, qui est le nom de l’image Docker en cours d'exécution.
+- ![Capture d'écran de la version Docker](images/docker-stop.png)
