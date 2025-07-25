@@ -25,9 +25,12 @@ docker --version
 - ![Capture d'écran de la version Docker](images/docker-version.png)
 
 ### 4. Tester les commandes de base dans le terminal :
-docker info
+docker info : affichage des informations système Docker avec docker info
 - ![Capture d'écran de la version Docker](images/docker-info.png)
 - ![Capture d'écran de la version Docker](images/docker-info-2.png)
 
-docker ps
+docker ps : affichage des conteneurs en cours avec docker ps
 - ![Capture d'écran de la version Docker](images/docker-ps.png)
+
+docker images : affichage des images Docker disponibles localement avec docker images
+- ![Capture d'écran de la version Docker](images/docker-images.png)
